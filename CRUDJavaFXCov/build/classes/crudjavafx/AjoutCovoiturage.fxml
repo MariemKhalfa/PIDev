@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="crudjavafx.AjoutCovoiturageController">
+   <children>
+      <Button fx:id="btnAjout" layoutX="182.0" layoutY="354.0" onAction="#AjoutCovoiturage" text="Soumettre Covoiturage" />
+      <Label layoutX="28.0" layoutY="65.0" text="Date du covoiturage :" />
+      <Label layoutX="28.0" layoutY="100.0" text="Nombre de places:" />
+      <Label layoutX="28.0" layoutY="130.0" text="Heure de départ:" />
+      <Label layoutX="28.0" layoutY="159.0" text="Adresse de départ:" />
+      <Label layoutX="28.0" layoutY="233.0" text="Adresse de destination: " />
+      <Label layoutX="35.0" layoutY="304.0" text="Covoitureur:" />
+      <TextField fx:id="nbrPlacesTxt" layoutX="163.0" layoutY="96.0" prefHeight="25.0" prefWidth="207.0" promptText="saisir nombre de places" />
+      <DatePicker fx:id="datecovoiturageTxt" layoutX="165.0" layoutY="61.0" />
+      <TextField fx:id="heureDepartTxt" layoutX="163.0" layoutY="126.0" prefHeight="25.0" prefWidth="207.0" promptText="saisir heure de départ" />
+      <TextArea fx:id="adresseDepartTxt" layoutX="163.0" layoutY="159.0" prefHeight="65.0" prefWidth="207.0" promptText="Veuillez saisir l'adresse de départ" />
+      <TextArea fx:id="adresseDestinationTxt" layoutX="165.0" layoutY="231.0" prefHeight="59.0" prefWidth="200.0" promptText="Veuillez saisir l'adresse de destination" />
+      <TextField fx:id="cinTxt" layoutX="168.0" layoutY="300.0" promptText="saisir CIN covoitureur" />
+      <Text fill="#e80808" layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Formulaire d'ajout d'un Covoiturage" textAlignment="CENTER" wrappingWidth="379.21875">
+         <font>
+            <Font name="Arabic Typesetting" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnList" layoutX="10.0" layoutY="346.0" mnemonicParsing="false" onAction="#ListeCov" prefHeight="41.0" prefWidth="127.0" text="Liste Covoiturages" textFill="#4398b2">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

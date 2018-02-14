@@ -1,0 +1,11 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.anchor {
+    -fx-background-image:url('file:/E:/Workspace/ESPRIT/3A4/Semestre2/PIDev/SprintJavaTests/CRUDJavaFX/src/Ressources/images/CovBack.png');
+	
+}

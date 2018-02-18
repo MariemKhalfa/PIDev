@@ -5,6 +5,8 @@
  */
 package Entities;
 
+import java.sql.Date;
+
 /**
  *
  * @author atoufa traore
@@ -12,5 +14,5 @@ package Entities;
 public class Evenement {
        private String id;
     private String intitule;
-    
+    private Date date;
 }

@@ -1,0 +1,15 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#pane {
+ -fx-background-image: url("/Ressources/Desktop-Cute-Kids-Wallpaper-HD.jpg") ;
+         -fx-background-image-opacity: 0.5;
+      -fx-background-size: 600 607;
+  
+    
+
+}
+#vbox{
+ -fx-background-image: url("/Ressources/4626.jpg")   
+}

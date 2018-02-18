@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gui.DashboardController">
+   <children>
+      <HBox prefHeight="92.0" prefWidth="800.0">
+         <children>
+            <ImageView fitHeight="101.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/header_bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/header_bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/header_bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/header_bg.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <VBox layoutY="65.0" prefHeight="540.0" prefWidth="147.0">
+         <children>
+            <ImageView fitHeight="59.0" fitWidth="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/black-board.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton contentDisplay="TOP" mnemonicParsing="false" onAction="#loadAddBook" prefHeight="37.0" prefWidth="147.0" style="-fx-background-color: DodgerBlue;" styleClass="toolbar-button" text="Gestion Garderies" textFill="#f2ebeb">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView fill="#e8dede" glyphName="TABLE" size="25" />
+               </graphic>
+            </JFXButton>
+            <ImageView fitHeight="59.0" fitWidth="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/black-board.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton contentDisplay="TOP" mnemonicParsing="false" onAction="#loadMemberTable" prefHeight="40.0" prefWidth="147.0" style="-fx-background-color: DodgerBlue;" styleClass="toolbar-button" text="Gestion Médecins" textFill="#f2ebeb">
+               <graphic>
+                  <FontAwesomeIconView fill="#e8dede" glyphName="TABLE" size="25" />
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="59.0" fitWidth="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/black-board.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton contentDisplay="TOP" mnemonicParsing="false" onAction="#loadMemberTable" prefHeight="43.0" prefWidth="147.0" style="-fx-background-color: DodgerBlue;" styleClass="toolbar-button" text="Gestion Covoiturages" textFill="#f2ebeb">
+               <graphic>
+                  <FontAwesomeIconView fill="#e8dede" glyphName="TABLE" size="25" />
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="59.0" fitWidth="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/black-board.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton contentDisplay="TOP" mnemonicParsing="false" onAction="#loadMemberTable" prefHeight="53.0" prefWidth="147.0" style="-fx-background-color: DodgerBlue;" styleClass="toolbar-button" text="Gestion Babysittings" textFill="#f2ebeb">
+               <graphic>
+                  <FontAwesomeIconView fill="#e8dede" glyphName="TABLE" size="25" />
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </JFXButton>
+            <ImageView fitHeight="59.0" fitWidth="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/black-board.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <Pane fx:id="pane" layoutX="147.0" layoutY="65.0" prefHeight="793.0" prefWidth="621.0" />
+   </children>
+</AnchorPane>

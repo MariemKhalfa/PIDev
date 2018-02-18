@@ -11,5 +11,6 @@ package Entities;
  */
 public class Enfant {
     private String b;
+    private String c;
     
 }

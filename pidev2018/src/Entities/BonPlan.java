@@ -10,5 +10,5 @@ package Entities;
  * @author atoufa traore
  */
 public class BonPlan {
-    
+    private String a;
 }

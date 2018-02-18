@@ -10,5 +10,7 @@ package Entities;
  * @author atoufa traore
  */
 public class Evenement {
+       private String id;
+    private String intitule;
     
 }

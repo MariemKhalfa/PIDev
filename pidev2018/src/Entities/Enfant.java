@@ -10,5 +10,6 @@ package Entities;
  * @author atoufa traore
  */
 public class Enfant {
+    private String b;
     
 }

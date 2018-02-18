@@ -13,7 +13,7 @@ import java.sql.Time;
  * @author Mariem
  */
 public class Babysitting {
-	
+	private String test;
 	 private int id;
     private Date date;
     private  Time heure_deb;
